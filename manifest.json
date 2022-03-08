@@ -15,9 +15,7 @@
     "contextMenus",
     "tabs",
     "storage",
-    "unlimitedStorage",
-    "tts",
-    "<all_urls>"
+    "unlimitedStorage"
   ],
   "optional_permissions": [ "cookies", "https://*.youdao.com/", "downloads" ],
   "background": {
