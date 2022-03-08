@@ -1,7 +1,7 @@
 {
   "name"            : "__MSG_extension_name__",
   "default_locale"  : "en",
-  "version"         : "2.2.0.520.1",
+  "version"         : "2.2.0.520b",
   "short_name"      : "SimpRead",
   "description"     : "__MSG_extension_desc__",
   "homepage_url"    : "https://simpread.pro",
@@ -93,5 +93,10 @@
   "offline_enabled" : true,
   "update_url"      : "https://github.com/OverflowCat/simpread-firefox/releases/latest/download/simpread.zip",
   "content_security_policy" : "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "simpread-firefox@overflow.cat"
+    }
+  }
 }
