@@ -38,7 +38,6 @@
       "16"          : "assets/images/icon16.png"
     }
   },
-  "options_page"    : "options/options.html",
   "commands": {
     "open_unreader": {
         "suggested_key": {
@@ -48,8 +47,7 @@
             "chromeos": "Ctrl+Shift+C",
             "linux"   : "Ctrl+Shift+C"
         },
-        "description": "打开稍后读",
-        "global"     : true
+        "description": "打开稍后读"
     },
     "add_unreader": {
       "suggested_key": {
@@ -59,8 +57,7 @@
           "chromeos": "Ctrl+Shift+V",
           "linux"   : "Ctrl+Shift+V"
       },
-      "description": "加入当前页面到稍后读",
-      "global"     : true
+      "description": "加入当前页面到稍后读"
     },
     "read_mode": {
       "suggested_key": {
@@ -70,8 +67,7 @@
           "chromeos": "Ctrl+Shift+R",
           "linux"   : "Ctrl+Shift+R"
       },
-      "description": "进入阅读模式",
-      "global"     : true
+      "description": "进入阅读模式"
     },
     "focus_mode": {
       "suggested_key": {
@@ -81,8 +77,7 @@
           "chromeos": "Ctrl+Shift+F",
           "linux"   : "Ctrl+Shift+F"
       },
-      "description": "进入聚焦模式",
-      "global"     : true
+      "description": "进入聚焦模式"
     }
   },
   "web_accessible_resources": [
@@ -90,8 +85,6 @@
     "website_list.json",
     "options/corb.html"
   ],
-  "offline_enabled" : true,
-  "update_url"      : "https://github.com/OverflowCat/simpread-firefox/releases/latest/download/simpread.zip",
   "content_security_policy" : "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
   "manifest_version": 2,
   "browser_specific_settings": {
